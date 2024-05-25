@@ -1,0 +1,220 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.page {
+    height: 100%;
+    width: 100%;
+    background-image: url(https://images.unsplash.com/photo-1591322128797-1137c2e39804?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-position: center;
+    background-size: cover;
+    border: 2px solid black;
+
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99;
+}
+
+.logo {
+    font-size: 2em;
+    user-select: none;
+    margin-left: 40px;
+    margin-top: 30px;
+
+}
+
+.navi a {
+    position: relative;
+    font-size: 1.1em;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 40px;
+    color: black;
+
+}
+
+.navi .btn {
+    width: 130px;
+    margin-left: 40px;
+    height: 50px;
+    background: transparent;
+    border: 2px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 600;
+
+
+}
+
+.navi .btn :hover {
+    background-color: rgb(236, 18, 18);
+    color: black;
+}
+
+.page .box1 {
+    height: 180px;
+    width: 150px;
+    background-image: url(https://images.unsplash.com/photo-1579965342575-16428a7c8881?q=80&w=1524&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-position: center;
+    background-size: cover;
+    border: 2px solid black;
+    position: absolute;
+    top: 100px;
+    left: 61%;
+}
+
+.page .box2 {
+    height: 180px;
+    width: 150px;
+    background-image: url(https://plus.unsplash.com/premium_photo-1677679817657-b94ed4ce1b46?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-position: center;
+    background-size: cover;
+    border: 2px solid black;
+    position: absolute;
+    top: 100px;
+    left: 73%;
+}
+
+.page .box3 {
+    height: 180px;
+    width: 150px;
+    background-image: url(https://images.unsplash.com/photo-1577084089128-37e3a90d6c72?q=80&w=1385&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-position: center;
+    background-size: cover;
+    border: 2px solid black;
+    position: absolute;
+    top: 100px;
+    left: 85%;
+}
+
+.page .box4 {
+    height: 180px;
+    width: 150px;
+    background-image: url(https://images.unsplash.com/photo-1584448062058-0d13ba997eb0?q=80&w=1510&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-position: center;
+    background-size: cover;
+    border: 2px solid black;
+    position: absolute;
+    top: 50%;
+    left: 66%;
+}
+
+.page .box5 {
+    height: 180px;
+    width: 150px;
+    background-image: url(https://images.unsplash.com/photo-1584282000369-8b26844c9188?q=80&w=1510&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-position: center;
+    background-size: cover;
+    border: 2px solid black;
+    position: absolute;
+    top: 50%;
+    left: 80%;
+}
+
+.page h1 {
+    margin-top: 150px;
+    margin-left: 50px;
+    font-family: Helvetica;
+    font-weight: 900;
+    color: rgb(24, 20, 20);
+    font-size: 40px;
+}
+
+.page h3 {
+    margin-top: 30px;
+    margin-left: 50px;
+    font-family: Helvetica;
+    font-weight: 800;
+}
+
+.page p {
+    color: rgb(19, 14, 14);
+    margin: 40px 50px;
+
+}
+
+.page .btn2 {
+    width: 200px;
+    margin-left: 40px;
+    height: 50px;
+    background-color: blue;
+    border: 2px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 600;
+
+}
+
+.page .box1 footer .btn4 {
+    margin-top: 105%;
+    width: 100%;
+    background-color: rgb(24, 24, 32);
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 500;
+    border: none;
+    color: white;
+}
+
+.page .box2 footer .btn4 {
+    margin-top: 105%;
+    width: 100%;
+    background-color: rgb(24, 24, 32);
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 500;
+    border: none;
+    color: white;
+}
+
+.page .box3 footer .btn4 {
+    margin-top: 105%;
+    width: 100%;
+    background-color: rgb(24, 24, 32);
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 500;
+    border: none;
+    color: white;
+}
+
+.page .box4 footer .btn4 {
+    margin-top: 105%;
+    width: 100%;
+    background-color: rgb(24, 24, 32);
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 500;
+    border: none;
+    color: white;
+}
+
+.page .box5 footer .btn4 {
+    margin-top: 105%;
+    width: 100%;
+    background-color: rgb(24, 24, 32);
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 500;
+    border: none;
+    color: white;
+}
